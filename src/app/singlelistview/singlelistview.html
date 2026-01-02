@@ -1,0 +1,9 @@
+<div class="card-container">
+    <div class="card">
+        <img [src]="singleproduct?.avatar || singleproduct?.thumbnail || singleproduct?.image"
+            alt="{{singleproduct?.name || singleproduct?.title}}" class="product.image" height="200" width="200" />
+        <h2>{{singleproduct?.name || singleproduct?.title}}</h2>
+        <p>{{singleproduct?.description}}</p>
+        <p>{{singleproduct?.price | currency}}</p>
+    </div>
+</div>

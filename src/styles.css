@@ -1,0 +1,58 @@
+
+body {
+    background-color: #f1f8e9;
+  
+    color: #2e7d32;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #43a047 !important;
+    border-color: #43a047 !important;
+}
+
+.btn-outline-primary {
+    color: #43a047;
+    border-color: #43a047;
+}
+
+.btn-outline-primary:hover {
+    background-color: #43a047;
+    border-color: #43a047;
+}
+
+
+.navbar.bg-body-tertiary,
+.navbar-light {
+    background-color: #dcedc8 !important;
+  
+}
+
+
+.nav-link {
+    color: #1b5e20 !important;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #1b5e20 !important;
+}
+
+
+.text-primary {
+    color: #43a047 !important;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #c8e6c9;
+}
